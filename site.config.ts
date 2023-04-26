@@ -17,7 +17,7 @@ export default siteConfig({
   description: `gaoyang's blog.`,
 
   // social usernames (optional)
-  twitter: 'gaoyangN',
+  twitter: 'gaoyang_cn',
   github: 'gaoyang',
   // linkedin: 'fisch2',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
