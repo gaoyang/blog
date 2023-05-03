@@ -80,6 +80,7 @@
 .notion-collection-card {
   border-radius: 16px;
   box-shadow: none;
+  transition: background 150ms linear;
 }
 
 .notion-collection-card-cover img {
@@ -97,8 +98,7 @@
 
 .notion-collection-card-cover {
   border-bottom: 0 none;
-  transition: filter 150ms linear;
-  filter: none;
+  transition: transform 150ms linear;
 }
 
 .notion-collection-card-cover span{
@@ -106,21 +106,11 @@
 }
 
 .notion-collection-card:hover .notion-collection-card-cover {
-  filter: brightness(120%);
+  transform: scale(1.05);
 }
 
 .notion-collection-card-body {
   padding: 10px;
-}
-
-/* only target safari */
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  _::-webkit-full-page-media,
-  _:future,
-  :root,
-  .notion-collection-card-cover {
-    transition: none 0ms linear;
-  }
 }
 
 .notion-quote {
