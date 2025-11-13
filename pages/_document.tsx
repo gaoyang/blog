@@ -17,7 +17,7 @@ export default class MyDocument extends Document {
 
             <link rel='manifest' href='/manifest.json' />
             <link rel='mask-icon' href='/safari-pinned-tab.svg' />
-            <link rel="apple-touch-icon" href="/favicon-192x192.png" />
+            <link rel='apple-touch-icon' href='/favicon-192x192.png' />
           </Head>
 
           <body>
