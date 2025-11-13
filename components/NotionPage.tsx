@@ -260,7 +260,11 @@ export function NotionPage({
     return <Page404 site={site} pageId={pageId} error={error} />
   }
 
-  const title = Array.from(new Set([getBlockTitle(block, recordMap), site.name])).filter(Boolean).join(' - ')
+  const title = Array.from(
+    new Set([getBlockTitle(block, recordMap), site.name])
+  )
+    .filter(Boolean)
+    .join(' - ')
 
   console.log('notion page', {
     isDev: config.isDev,
