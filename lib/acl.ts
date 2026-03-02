@@ -1,4 +1,5 @@
-import { getBlockValue } from './get-block-value'
+import { getBlockValue } from 'notion-utils'
+
 import { type PageProps } from './types'
 
 export async function pageAcl({
