@@ -1,6 +1,7 @@
-import { getBlockValue, getPageTitle, parsePageId } from 'notion-utils'
+import { getPageTitle, parsePageId } from 'notion-utils'
 
 import * as config from './config'
+import { getBlockValue } from './get-block-value'
 import { getPage } from './notion'
 
 export const oembed = async ({
